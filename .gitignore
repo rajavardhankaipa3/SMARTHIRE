@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Models
+models/
+*.pkl
+*.joblib
+
+# Large datasets
+data/raw/
+data/processed/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
