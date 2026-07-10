@@ -1,23 +1,25 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Virtual environments
+# Virtual Environment
 venv/
 .venv/
 env/
-
-# Models
-models/
-*.pkl
-*.joblib
-
-# Large datasets
-data/raw/
-data/processed/
 
 # VS Code
 .vscode/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Ignore only large model
+models/similarity_matrix.pkl
+
+# Ignore only large datasets
+data/raw/naukri_jobs.csv
+data/processed/naukri_cleaned.csv
+
+# OS files
+.DS_Store
+Thumbs.db
